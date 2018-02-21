@@ -1,0 +1,230 @@
+*{
+	font-family: 'Raleway', sans-serif;
+}
+
+.banner {
+	width: 100%;
+	margin: auto;
+	margin-top: 15px;
+	position: relative;
+}
+
+.banner img {
+	width: 35%;
+	display: block;
+	margin: auto;
+}
+
+
+.center {
+    width: fit-content;
+	margin: 0 auto;
+}
+
+
+.page-title  {
+	font-family: 'Raleway', sans-serif;
+	width: 27%;
+	margin-left: 20%;
+	font-size: 3em;
+}
+
+
+#about-photo {
+	border: 2px solid black;
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	width: 40%;
+}
+
+.about-description {
+	background-color: #F8F8FF;
+	font-size: 1.8rem;
+	text-align: justify;
+	line-height: 200%;
+	width: 65%;
+	border: 2px solid black;
+	margin: auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	padding: 20px;
+}
+
+.content  form{
+	display: block;
+	width: 50%;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+.rq{
+	font-style: italic;
+
+}
+
+.packages {
+	margin: auto;
+	font-size: 2em;
+}
+
+.session_title {
+	padding-right: 100px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.session_price {
+    padding-top: 20px;
+}
+
+.session_info {
+    padding-top: 5px;
+	font-size: 15px;
+}
+
+#slider {
+	margin-top: 20px;
+	width: 800px;
+}
+
+.footer{
+	width: fit-content;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+
+.logout_button{
+  position: fixed;
+  bottom: 0px;
+  right: 30px; 
+  font-size: 30px;
+}
+
+.banner .navbar {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    top: auto;
+}
+
+
+.logout_button a:hover { 
+	background: #CCC; 
+}
+
+
+.file_path{
+  width: 250px;
+  height: 250px;
+
+}
+
+.edit_img{
+  width: 100%;
+  height: auto;
+}
+
+.email_form{
+	padding-top: 50px;
+}
+
+.edit_port{
+	margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.port-title{
+	font-size: 1em;
+}
+.soon{
+	text-align: center;
+}
+
+/*Styling for textareas*/
+textarea{
+	width: 500px;
+}
+
+/*Styling for labels that need to be padded*/
+.padded_label{
+	display: block;
+	padding-top: 20px; 
+}
+
+/*Styling for add forms*/
+#add_photo_label{
+	padding-top: 10%;
+}
+
+.edit_form{
+	padding-top: 30px;
+}
+
+.portfolios_table{
+	margin: auto;
+	font-size: 15px;
+	border: 1px solid black;
+    text-align: left;
+    padding: 20px;
+}
+
+.port_table{
+	margin: auto;
+	font-size: 15px;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+#padded_table{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.share_btn{
+	margin: auto;
+    width: 50%;
+    padding-top: 20px;
+}
+
+/* Styling for sessions page*/
+
+#sessions_table {
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+
+#sessions_table td{
+    padding: 5px;
+    height: 25px;
+}
+
+#sessions_table textarea {
+    width: 350px;
+}
+
+#sessions_table .title input {
+    width: 240px;
+}
+
+#sessions_table .price input {
+    width: 60px;
+}
+
+#photo_add_table td {
+	font-size: 18px;
+	width: 150px;
+	padding: 10px 5px;
+}
+
+.warning{
+	color: red;
+	font-size: 20px;
+}
+
+.success{
+	font-size: 20px;
+}
